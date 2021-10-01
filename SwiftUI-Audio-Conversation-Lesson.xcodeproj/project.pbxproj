@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C9CE22F651F713D3338619 /* Pods_SwiftUI_Audio_Conversation_Lesson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FAB4F3F00D13BA52BE43A67 /* Pods_SwiftUI_Audio_Conversation_Lesson.framework */; };
+		AB94FEF927044D6500C44E5D /* SwiftUI_Audio_Conversation_LessonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FEF827044D6500C44E5D /* SwiftUI_Audio_Conversation_LessonApp.swift */; };
+		AB94FEFB27044D6500C44E5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FEFA27044D6500C44E5D /* ContentView.swift */; };
+		AB94FEFD27044D6900C44E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB94FEFC27044D6900C44E5D /* Assets.xcassets */; };
+		AB94FF0027044D6900C44E5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB94FEFF27044D6900C44E5D /* Preview Assets.xcassets */; };
+		AB94FF122704542000C44E5D /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF062704541F00C44E5D /* BlankView.swift */; };
+		AB94FF132704542000C44E5D /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF072704541F00C44E5D /* FileStorage.swift */; };
+		AB94FF152704542000C44E5D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF092704541F00C44E5D /* Constants.swift */; };
+		AB94FF162704542000C44E5D /* FCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF0A2704541F00C44E5D /* FCollectionReference.swift */; };
+		AB94FF172704542000C44E5D /* ButtonWithIconWithClipShapeCircleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF0B2704542000C44E5D /* ButtonWithIconWithClipShapeCircleAction.swift */; };
+		AB94FF182704542000C44E5D /* CommonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF0C2704542000C44E5D /* CommonModel.swift */; };
+		AB94FF192704542000C44E5D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF0D2704542000C44E5D /* Extension.swift */; };
+		AB94FF1A2704542000C44E5D /* DeviceProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF0E2704542000C44E5D /* DeviceProperties.swift */; };
+		AB94FF1B2704542000C44E5D /* CommonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF0F2704542000C44E5D /* CommonModifier.swift */; };
+		AB94FF1C2704542000C44E5D /* ButtonTextAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF102704542000C44E5D /* ButtonTextAction.swift */; };
+		AB94FF1D2704542000C44E5D /* FileManagerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF112704542000C44E5D /* FileManagerVM.swift */; };
+		AB94FF262704558F00C44E5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB94FF252704558F00C44E5D /* GoogleService-Info.plist */; };
+		AB94FF2B2704560100C44E5D /* VoiceVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF282704560100C44E5D /* VoiceVM.swift */; };
+		AB94FF2C2704560100C44E5D /* RecordingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF292704560100C44E5D /* RecordingModel.swift */; };
+		AB94FF2F2704584900C44E5D /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF2E2704584900C44E5D /* PersonModel.swift */; };
+		AB94FF3127046CA000C44E5D /* ConversationIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF3027046CA000C44E5D /* ConversationIndexView.swift */; };
+		AB94FF3327046CBE00C44E5D /* ConversationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF3227046CBE00C44E5D /* ConversationForm.swift */; };
+		AB94FF38270470FD00C44E5D /* AudioHelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF35270470FC00C44E5D /* AudioHelperView.swift */; };
+		AB94FF3A270470FD00C44E5D /* ConversationFormPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF37270470FD00C44E5D /* ConversationFormPreviewView.swift */; };
+		AB94FF3D2704A78800C44E5D /* ConversationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF3C2704A78800C44E5D /* ConversationModel.swift */; };
+		AB94FF3F27059DDD00C44E5D /* ConversationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94FF3E27059DDC00C44E5D /* ConversationVM.swift */; };
+		ABF653752706466700677E37 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF653742706466700677E37 /* DateExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FAB4F3F00D13BA52BE43A67 /* Pods_SwiftUI_Audio_Conversation_Lesson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Audio_Conversation_Lesson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6495489AB1AD28E96760F3B2 /* Pods-SwiftUI-Audio-Conversation-Lesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Audio-Conversation-Lesson.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Audio-Conversation-Lesson/Pods-SwiftUI-Audio-Conversation-Lesson.release.xcconfig"; sourceTree = "<group>"; };
+		675CD08D47988D38D13887E8 /* Pods-SwiftUI-Audio-Conversation-Lesson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Audio-Conversation-Lesson.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Audio-Conversation-Lesson/Pods-SwiftUI-Audio-Conversation-Lesson.debug.xcconfig"; sourceTree = "<group>"; };
+		AB94FEF527044D6500C44E5D /* SwiftUI-Audio-Conversation-Lesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Audio-Conversation-Lesson.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB94FEF827044D6500C44E5D /* SwiftUI_Audio_Conversation_LessonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Audio_Conversation_LessonApp.swift; sourceTree = "<group>"; };
+		AB94FEFA27044D6500C44E5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB94FEFC27044D6900C44E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB94FEFF27044D6900C44E5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB94FF062704541F00C44E5D /* BlankView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		AB94FF072704541F00C44E5D /* FileStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		AB94FF092704541F00C44E5D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AB94FF0A2704541F00C44E5D /* FCollectionReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCollectionReference.swift; sourceTree = "<group>"; };
+		AB94FF0B2704542000C44E5D /* ButtonWithIconWithClipShapeCircleAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithIconWithClipShapeCircleAction.swift; sourceTree = "<group>"; };
+		AB94FF0C2704542000C44E5D /* CommonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonModel.swift; sourceTree = "<group>"; };
+		AB94FF0D2704542000C44E5D /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		AB94FF0E2704542000C44E5D /* DeviceProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceProperties.swift; sourceTree = "<group>"; };
+		AB94FF0F2704542000C44E5D /* CommonModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonModifier.swift; sourceTree = "<group>"; };
+		AB94FF102704542000C44E5D /* ButtonTextAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTextAction.swift; sourceTree = "<group>"; };
+		AB94FF112704542000C44E5D /* FileManagerVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerVM.swift; sourceTree = "<group>"; };
+		AB94FF252704558F00C44E5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AB94FF282704560100C44E5D /* VoiceVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceVM.swift; sourceTree = "<group>"; };
+		AB94FF292704560100C44E5D /* RecordingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingModel.swift; sourceTree = "<group>"; };
+		AB94FF2E2704584900C44E5D /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		AB94FF3027046CA000C44E5D /* ConversationIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationIndexView.swift; sourceTree = "<group>"; };
+		AB94FF3227046CBE00C44E5D /* ConversationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationForm.swift; sourceTree = "<group>"; };
+		AB94FF35270470FC00C44E5D /* AudioHelperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioHelperView.swift; sourceTree = "<group>"; };
+		AB94FF37270470FD00C44E5D /* ConversationFormPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationFormPreviewView.swift; sourceTree = "<group>"; };
+		AB94FF3C2704A78800C44E5D /* ConversationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationModel.swift; sourceTree = "<group>"; };
+		AB94FF3E27059DDC00C44E5D /* ConversationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationVM.swift; sourceTree = "<group>"; };
+		ABF653742706466700677E37 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB94FEF227044D6500C44E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C9CE22F651F713D3338619 /* Pods_SwiftUI_Audio_Conversation_Lesson.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C575F8BDB3CE635F2B5AF5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FAB4F3F00D13BA52BE43A67 /* Pods_SwiftUI_Audio_Conversation_Lesson.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB94FEEC27044D6500C44E5D = {
+			isa = PBXGroup;
+			children = (
+				AB94FEF727044D6500C44E5D /* SwiftUI-Audio-Conversation-Lesson */,
+				AB94FEF627044D6500C44E5D /* Products */,
+				FF9B2804D38AC4D261004451 /* Pods */,
+				1C575F8BDB3CE635F2B5AF5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB94FEF627044D6500C44E5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB94FEF527044D6500C44E5D /* SwiftUI-Audio-Conversation-Lesson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB94FEF727044D6500C44E5D /* SwiftUI-Audio-Conversation-Lesson */ = {
+			isa = PBXGroup;
+			children = (
+				AB94FF1E2704548900C44E5D /* App */,
+				AB94FF22270454BD00C44E5D /* Utility */,
+				AB94FF21270454B500C44E5D /* Model */,
+				AB94FF20270454A600C44E5D /* View */,
+				AB94FF1F2704549B00C44E5D /* ViewModel */,
+				AB94FEFE27044D6900C44E5D /* Preview Content */,
+			);
+			path = "SwiftUI-Audio-Conversation-Lesson";
+			sourceTree = "<group>";
+		};
+		AB94FEFE27044D6900C44E5D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB94FEFF27044D6900C44E5D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB94FF1E2704548900C44E5D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AB94FEF827044D6500C44E5D /* SwiftUI_Audio_Conversation_LessonApp.swift */,
+				AB94FEFC27044D6900C44E5D /* Assets.xcassets */,
+				AB94FF252704558F00C44E5D /* GoogleService-Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AB94FF1F2704549B00C44E5D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB94FF112704542000C44E5D /* FileManagerVM.swift */,
+				AB94FF3E27059DDC00C44E5D /* ConversationVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB94FF20270454A600C44E5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB94FF3427046CC400C44E5D /* Conversation */,
+				AB94FEFA27044D6500C44E5D /* ContentView.swift */,
+				AB94FF242704552700C44E5D /* HelperView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB94FF21270454B500C44E5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB94FF0C2704542000C44E5D /* CommonModel.swift */,
+				AB94FF2E2704584900C44E5D /* PersonModel.swift */,
+				AB94FF3C2704A78800C44E5D /* ConversationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB94FF22270454BD00C44E5D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AB94FF23270454C700C44E5D /* FirebaseLisener */,
+				AB94FF0F2704542000C44E5D /* CommonModifier.swift */,
+				AB94FF0E2704542000C44E5D /* DeviceProperties.swift */,
+				AB94FF0D2704542000C44E5D /* Extension.swift */,
+				ABF653742706466700677E37 /* DateExtension.swift */,
+				AB94FF092704541F00C44E5D /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		AB94FF23270454C700C44E5D /* FirebaseLisener */ = {
+			isa = PBXGroup;
+			children = (
+				AB94FF0A2704541F00C44E5D /* FCollectionReference.swift */,
+				AB94FF072704541F00C44E5D /* FileStorage.swift */,
+			);
+			path = FirebaseLisener;
+			sourceTree = "<group>";
+		};
+		AB94FF242704552700C44E5D /* HelperView */ = {
+			isa = PBXGroup;
+			children = (
+				AB94FF2D2704560A00C44E5D /* AudioRecording */,
+				AB94FF062704541F00C44E5D /* BlankView.swift */,
+				AB94FF102704542000C44E5D /* ButtonTextAction.swift */,
+				AB94FF0B2704542000C44E5D /* ButtonWithIconWithClipShapeCircleAction.swift */,
+			);
+			path = HelperView;
+			sourceTree = "<group>";
+		};
+		AB94FF2D2704560A00C44E5D /* AudioRecording */ = {
+			isa = PBXGroup;
+			children = (
+				AB94FF292704560100C44E5D /* RecordingModel.swift */,
+				AB94FF282704560100C44E5D /* VoiceVM.swift */,
+				AB94FF35270470FC00C44E5D /* AudioHelperView.swift */,
+			);
+			path = AudioRecording;
+			sourceTree = "<group>";
+		};
+		AB94FF3427046CC400C44E5D /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				AB94FF3027046CA000C44E5D /* ConversationIndexView.swift */,
+				AB94FF3227046CBE00C44E5D /* ConversationForm.swift */,
+				AB94FF37270470FD00C44E5D /* ConversationFormPreviewView.swift */,
+			);
+			path = Conversation;
+			sourceTree = "<group>";
+		};
+		FF9B2804D38AC4D261004451 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				675CD08D47988D38D13887E8 /* Pods-SwiftUI-Audio-Conversation-Lesson.debug.xcconfig */,
+				6495489AB1AD28E96760F3B2 /* Pods-SwiftUI-Audio-Conversation-Lesson.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB94FEF427044D6500C44E5D /* SwiftUI-Audio-Conversation-Lesson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB94FF0327044D6900C44E5D /* Build configuration list for PBXNativeTarget "SwiftUI-Audio-Conversation-Lesson" */;
+			buildPhases = (
+				54A876230215D60BB7DB925F /* [CP] Check Pods Manifest.lock */,
+				AB94FEF127044D6500C44E5D /* Sources */,
+				AB94FEF227044D6500C44E5D /* Frameworks */,
+				AB94FEF327044D6500C44E5D /* Resources */,
+				A8704F9E6B8D38BC63606F33 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-Audio-Conversation-Lesson";
+			productName = "SwiftUI-Audio-Conversation-Lesson";
+			productReference = AB94FEF527044D6500C44E5D /* SwiftUI-Audio-Conversation-Lesson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB94FEED27044D6500C44E5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AB94FEF427044D6500C44E5D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = AB94FEF027044D6500C44E5D /* Build configuration list for PBXProject "SwiftUI-Audio-Conversation-Lesson" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB94FEEC27044D6500C44E5D;
+			productRefGroup = AB94FEF627044D6500C44E5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB94FEF427044D6500C44E5D /* SwiftUI-Audio-Conversation-Lesson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB94FEF327044D6500C44E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB94FF0027044D6900C44E5D /* Preview Assets.xcassets in Resources */,
+				AB94FF262704558F00C44E5D /* GoogleService-Info.plist in Resources */,
+				AB94FEFD27044D6900C44E5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54A876230215D60BB7DB925F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-Audio-Conversation-Lesson-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8704F9E6B8D38BC63606F33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Audio-Conversation-Lesson/Pods-SwiftUI-Audio-Conversation-Lesson-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Audio-Conversation-Lesson/Pods-SwiftUI-Audio-Conversation-Lesson-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Audio-Conversation-Lesson/Pods-SwiftUI-Audio-Conversation-Lesson-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB94FEF127044D6500C44E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB94FF3127046CA000C44E5D /* ConversationIndexView.swift in Sources */,
+				AB94FF2B2704560100C44E5D /* VoiceVM.swift in Sources */,
+				AB94FEFB27044D6500C44E5D /* ContentView.swift in Sources */,
+				AB94FF1D2704542000C44E5D /* FileManagerVM.swift in Sources */,
+				AB94FF182704542000C44E5D /* CommonModel.swift in Sources */,
+				AB94FF2F2704584900C44E5D /* PersonModel.swift in Sources */,
+				AB94FF2C2704560100C44E5D /* RecordingModel.swift in Sources */,
+				AB94FF132704542000C44E5D /* FileStorage.swift in Sources */,
+				AB94FF122704542000C44E5D /* BlankView.swift in Sources */,
+				ABF653752706466700677E37 /* DateExtension.swift in Sources */,
+				AB94FF192704542000C44E5D /* Extension.swift in Sources */,
+				AB94FF3327046CBE00C44E5D /* ConversationForm.swift in Sources */,
+				AB94FF1A2704542000C44E5D /* DeviceProperties.swift in Sources */,
+				AB94FF38270470FD00C44E5D /* AudioHelperView.swift in Sources */,
+				AB94FEF927044D6500C44E5D /* SwiftUI_Audio_Conversation_LessonApp.swift in Sources */,
+				AB94FF162704542000C44E5D /* FCollectionReference.swift in Sources */,
+				AB94FF172704542000C44E5D /* ButtonWithIconWithClipShapeCircleAction.swift in Sources */,
+				AB94FF152704542000C44E5D /* Constants.swift in Sources */,
+				AB94FF1C2704542000C44E5D /* ButtonTextAction.swift in Sources */,
+				AB94FF3A270470FD00C44E5D /* ConversationFormPreviewView.swift in Sources */,
+				AB94FF3F27059DDD00C44E5D /* ConversationVM.swift in Sources */,
+				AB94FF3D2704A78800C44E5D /* ConversationModel.swift in Sources */,
+				AB94FF1B2704542000C44E5D /* CommonModifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB94FF0127044D6900C44E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB94FF0227044D6900C44E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB94FF0427044D6900C44E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675CD08D47988D38D13887E8 /* Pods-SwiftUI-Audio-Conversation-Lesson.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Audio-Conversation-Lesson/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD74G4QNW2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requied Microphone";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wgoweb.SwiftUI-Audio-Conversation-Lesson";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB94FF0527044D6900C44E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6495489AB1AD28E96760F3B2 /* Pods-SwiftUI-Audio-Conversation-Lesson.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Audio-Conversation-Lesson/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD74G4QNW2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requied Microphone";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wgoweb.SwiftUI-Audio-Conversation-Lesson";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB94FEF027044D6500C44E5D /* Build configuration list for PBXProject "SwiftUI-Audio-Conversation-Lesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB94FF0127044D6900C44E5D /* Debug */,
+				AB94FF0227044D6900C44E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB94FF0327044D6900C44E5D /* Build configuration list for PBXNativeTarget "SwiftUI-Audio-Conversation-Lesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB94FF0427044D6900C44E5D /* Debug */,
+				AB94FF0527044D6900C44E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB94FEED27044D6500C44E5D /* Project object */;
+}
