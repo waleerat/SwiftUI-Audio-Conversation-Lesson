@@ -22,7 +22,11 @@ Example for audio recording, chat layout, upload/delete in Firestore.
  run pod install
 ```
 5.  Close project and open again
-<img src="https://github.com/waleerat/GitHub-Photos-Shared/blob/main/SwiftUI-Audio-Conversation-Lesson/finder.png" width="20%" height="20%">
+<img src="https://github.com/waleerat/GitHub-Photos-Shared/blob/main/SwiftUI-Audio-Conversation-Lesson/finder.png" width="50%" height="50%">
+
+6. Set `Privacy - Microphone Usage Description` in project info
+
+<img src="https://github.com/waleerat/GitHub-Photos-Shared/blob/main/SwiftUI-Audio-Conversation-Lesson/permission.png" width="50%" height="50%">
 
 ## Check these files
 
