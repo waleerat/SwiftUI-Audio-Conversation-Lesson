@@ -26,7 +26,7 @@ Example for audio recording, chat layout, upload/delete in Firestore.
 
 6. Set `Privacy - Microphone Usage Description` in project info
 
-<img src="https://github.com/waleerat/GitHub-Photos-Shared/blob/main/SwiftUI-Audio-Conversation-Lesson/permission.png" width="50%" height="50%">
+<img src="https://github.com/waleerat/GitHub-Photos-Shared/blob/main/SwiftUI-Audio-Conversation-Lesson/permission.png" width="70%" height="70%">
 
 ## Check these files
 
