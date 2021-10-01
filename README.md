@@ -6,9 +6,9 @@
 Example for audio recording, chat layout, upload/delete in Firestore.
 
 ## Screenshots
-<img src="https://github.com/waleerat/GitHub-Photos-Shared/blob/main/SwiftUI-Audio-Conversation-Lesson/Conversation-3.png" width="20%" height="20%"> |
-<img src="https://github.com/waleerat/GitHub-Photos-Shared/blob/main/SwiftUI-Audio-Conversation-Lesson/Conversation-02.png" width="20%" height="20%"> |
-<img src="https://github.com/waleerat/GitHub-Photos-Shared/blob/main/SwiftUI-Audio-Conversation-Lesson/conversation-1.png" width="20%" height="20%"> |
+<img src="https://github.com/waleerat/GitHub-Photos-Shared/blob/main/SwiftUI-Audio-Conversation-Lesson/Conversation-3.png" width="40%" height="40%"> |
+<img src="https://github.com/waleerat/GitHub-Photos-Shared/blob/main/SwiftUI-Audio-Conversation-Lesson/Conversation-02.png" width="40%" height="40%"> |
+<img src="https://github.com/waleerat/GitHub-Photos-Shared/blob/main/SwiftUI-Audio-Conversation-Lesson/conversation-1.png" width="40%" height="40%"> |
 
 
 ## How to setup project
